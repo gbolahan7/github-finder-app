@@ -14,6 +14,7 @@ export default function User() {
     useEffect(() => {
         getUser(params.login)
         getUsersRepos(params.login)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const {
